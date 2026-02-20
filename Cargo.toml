@@ -1,0 +1,8 @@
+[package]
+name = "upyin"
+version = "0.1.0"
+authors = ["Yuri Volkov <volkov.yuri.alex@gmail.com>"]
+edition = "2024"
+
+[dependencies]
+fixed = "1.30.0"
