@@ -6,3 +6,7 @@ edition = "2024"
 
 [dependencies]
 fixed = "1.30.0"
+pitchy = {version = "0.2.0", default-features = false, features = ["libm"]}
+
+[dev-dependencies]
+pretty_assertions = "1.4.1"
