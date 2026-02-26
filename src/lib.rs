@@ -2,10 +2,6 @@
 
 pub mod yin;
 
-pub use fixed::types::I50F14;
+pub use fugit::{HertzU32 as Hertz, MicrosDurationU32 as MicroSecond, ExtU32, RateExtU32};
 
-/// Default data type
-pub type Sample = I50F14;
-
-pub use yin::Yin;
-pub use yin::YinCalculator;
+pub use yin::{Yin, YinCalculator, Sample, Candidates};
